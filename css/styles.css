@@ -1,0 +1,118 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-bg-color: #f5f5f5;
+  --primary-text-color: #757575;
+  --footer-adress-text-color: rgba(255, 255, 255, 0.6);
+
+}
+ 
+body {
+  font-family: 'Roboto';
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header .logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-style: 'normal';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+header .studio-in-logo {
+  color: #000000;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-header {
+  color: var(--primary-text-color);
+}
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* button */
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* заголовки черный #212121 */
+
+/*вторичный текст серый #757575 */
+
+/* акценты #2196F3 */
+
+/* футер адрес rgba(255, 255, 255, 0.6) */
+
+/* баннер и футер #2F303A */
+
+/* наша команда */
+
+/* Footer */
+
+footer .logo {
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-style: 'normal';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+footer .studio-in-logo {
+  color: #ffffff;
+}
+
+.adress-link {
+  color: var(--white-color);
+  font-style: normal;
+}
+
+
+address { 
+  font-style: normal;
+  color: var(--footer-adress-text-color);
+}
