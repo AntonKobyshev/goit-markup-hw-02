@@ -5,13 +5,13 @@
   --primary-bg-color: #f5f5f5;
   --primary-text-color: #757575;
   --footer-adress-text-color: rgba(255, 255, 255, 0.6);
-
 }
- 
+
 body {
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -24,11 +24,10 @@ ul {
 
 header .logo {
   color: var(--accent-color);
-  font-family: 'Raleway';
-  font-style: 'normal';
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -40,6 +39,10 @@ header .studio-in-logo {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -53,6 +56,10 @@ header .studio-in-logo {
 
 .contacts-header {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts-header:hover,
 .contacts-header:focus {
@@ -63,6 +70,11 @@ header .studio-in-logo {
 
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* button */
@@ -70,25 +82,53 @@ header .studio-in-logo {
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
 
-.section-title {
+.section1-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-/* заголовки черный #212121 */
-
-/*вторичный текст серый #757575 */
-
-/* акценты #2196F3 */
-
-/* футер адрес rgba(255, 255, 255, 0.6) */
-
-/* баннер и футер #2F303A */
+.section1-paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 
 /* наша команда */
+
+.section2-title,
+.section3-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.person-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.person-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
 
 /* Footer */
 
@@ -102,6 +142,7 @@ footer .logo {
   letter-spacing: 0.03em;
 }
 
+
 footer .studio-in-logo {
   color: #ffffff;
 }
@@ -111,8 +152,7 @@ footer .studio-in-logo {
   font-style: normal;
 }
 
-
-address { 
+address {
   font-style: normal;
   color: var(--footer-adress-text-color);
 }
