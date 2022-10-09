@@ -87,19 +87,14 @@ header .studio-in-logo {
 /* buttons */
 
 .button-main {
-  color: var(--title-text-color);
-  background-color: var(--button-filter-non-active-color);
+  color: var(--white-color);
+  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
   cursor: pointer;
-}
-.button-main:hover,
-.button-main:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
 }
 
 .button-filter {
