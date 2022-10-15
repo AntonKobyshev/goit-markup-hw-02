@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -9,6 +19,7 @@
   --section3-bg-color: #f5f4fa;
   --button-filter-non-active-color: #f5f4fa;
   --button-filter-active-color: #2196f3;
+  --button-main-active-color: #188CE8;
 }
 
 body {
@@ -16,7 +27,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   letter-spacing: 0.02em;
-}
+  }
 
 a {
   text-decoration: none;
@@ -38,6 +49,14 @@ header .logo {
 header .studio-in-logo {
   color: #000000;
 }
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid var(--accent-color);
+}
+
 
 /* Site nav */
 
@@ -70,6 +89,7 @@ header .studio-in-logo {
 }
 
 /* Hero */
+
 .hero {
   background-color: var(--foorter-hero-bg-color);
 }
@@ -96,7 +116,18 @@ header .studio-in-logo {
   letter-spacing: 0.06em;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px ;
+  min-width: 216px;
+  min-height: 50px;
+  text-align: center;
+  border: none;
 }
+.button-main:hover,
+.button-main:focus {
+  background-color: var(--button-main-active-color);
+}
+
 
 .button-filter {
   color: var(--title-text-color);
@@ -107,6 +138,7 @@ header .studio-in-logo {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 }
 .button-filter:hover,
 .button-filter:focus {
@@ -171,6 +203,7 @@ header .studio-in-logo {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  /* margin-bottom: 0px; */
 }
 
 /* Footer */
@@ -185,6 +218,7 @@ footer .logo {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  /* margin-top: 0px; */
 }
 
 footer .studio-in-logo {
