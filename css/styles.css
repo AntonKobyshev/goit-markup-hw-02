@@ -19,7 +19,7 @@ html {
   --section3-bg-color: #f5f4fa;
   --button-filter-non-active-color: #f5f4fa;
   --button-filter-active-color: #2196f3;
-  --button-main-active-color: #188CE8;
+  --button-main-active-color: #188ce8;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   letter-spacing: 0.02em;
-  }
+}
 
 a {
   text-decoration: none;
@@ -56,7 +56,6 @@ header .studio-in-logo {
   width: 1170px;
   outline: 2px solid var(--accent-color);
 }
-
 
 /* Site nav */
 
@@ -117,7 +116,7 @@ header .studio-in-logo {
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
-  padding: 10px 32px ;
+  padding: 10px 32px;
   min-width: 216px;
   min-height: 50px;
   text-align: center;
@@ -127,7 +126,6 @@ header .studio-in-logo {
 .button-main:focus {
   background-color: var(--button-main-active-color);
 }
-
 
 .button-filter {
   color: var(--title-text-color);
