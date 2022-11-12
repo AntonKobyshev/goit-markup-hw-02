@@ -54,7 +54,7 @@ header .studio-in-logo {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  outline: 2px solid var(--accent-color);
+ 
 }
 
 /* Site nav */
@@ -203,6 +203,16 @@ header .studio-in-logo {
   letter-spacing: 0.03em;
   /* margin-bottom: 0px; */
 }
+
+.last-person-position {
+  
+  margin-bottom: 0px;
+}
+
+.section3-ul
+{
+    margin-bottom: 0px;
+  }
 
 /* Footer */
 footer {
